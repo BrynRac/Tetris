@@ -1,0 +1,13 @@
+
+#tetris{
+    z-index:  5;
+    border: 1px solid red;
+}
+
+body{
+    margin: 0 auto;
+    background: rgb(95, 95, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
