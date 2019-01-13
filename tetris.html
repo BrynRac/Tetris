@@ -7,11 +7,18 @@
         <title>Tetris</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|VT323" rel="stylesheet">
 
     </head>
 
     <body>
-        <canvas id="tetris" width="480" height="600"> </canvas>
+        <div class="flex">
+        <div id="score">Score: 0</div>
+        <canvas id="tetris" width="240" height="400"> </canvas>
+    </div>
+        <div class="text">Controls:
+            <span>Move using arrow keys. <br> Rotate pieces with "A" and "D". </span>
+        </div>
         <script src="assets/main.js"></script>
     </body>
 
